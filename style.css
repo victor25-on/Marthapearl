@@ -336,55 +336,42 @@ header {
 .subscribe-form button:hover {
   background-color: #eee;
 }
-@media (max-width: 768px) {
+@media (max-width: 430px) {
   .testimonials {
     padding: 40px 15px;
   }
 
   .testimonials h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
   }
 
   .testimonial-item {
-    margin-bottom: 30px;
+    padding: 0 5px;
   }
 
   .stars {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .quote {
     font-size: 1rem;
+    margin-top: 8px;
   }
 
   .detail {
-    font-size: 0.9rem;
-    padding: 0 10px;
-  }
-
-  .author {
-    font-size: 0.85rem;
-  }
-
-  .testimonial-item hr {
-    width: 60%;
-  }
-}
-
-@media (max-width: 480px) {
-  .testimonials h2 {
-    font-size: 1.3rem;
-  }
-
-  .quote {
-    font-size: 0.95rem;
-  }
-
-  .detail {
-    font-size: 0.85rem;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    padding: 0 5px;
   }
 
   .author {
     font-size: 0.8rem;
+    margin-top: 6px;
+  }
+
+  .testimonial-item hr {
+    width: 70%;
+    margin: 20px auto;
   }
 }
